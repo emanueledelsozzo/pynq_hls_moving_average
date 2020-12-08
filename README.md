@@ -25,4 +25,4 @@ Once the bitstream is ready, deploy the following files to your target board:
 Remember that these files should have the same name and that you cannot change the name of the bitstream file.
 
 ## PYNQ evaluation
-Python folder contains two Jupyter notebooks to evaluate the Moving Average IP: <code>moving_average.ipynb</code> and <code>moving_average_with_class.ipynb</code>. These files evaluate the IP similar to the HLS testbench using PYNQ APIs. <code>moving_average_with_class.ipynb</code> is still a work-in-progress notebook. It wraps the IP usage with a Python class, which works properly on the Pynq Z2 platform, but it causes a bus error on both Ultra96-V2 and ZCU104.
+Python folder contains two Jupyter notebooks to evaluate the Moving Average IP: <code>moving_average.ipynb</code> and <code>moving_average_with_class.ipynb</code>. These files evaluate the IP similar to the HLS testbench using PYNQ APIs. <code>moving_average_with_class.ipynb</code> wraps the IP usage within a Python class.
